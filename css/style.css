@@ -386,6 +386,7 @@ button:focus{
     display: table;
     height: 100%;
     width: 100%;
+    background-color: red;
 }
 
 .lbox-caption {
@@ -406,11 +407,18 @@ button:focus{
 	right: 0;
 	height: 100%;
 	padding: 11% 0%;
+	background-color:;
+}
+.lbox-details{
+          background-color:orange;
+}
+.cl{
+	color: red;
 }
 
 .lbox-details::before{
 	content: "";
-	background: rgba(0,0,0,0.5);
+	/*background: rgba(0,0,0,0.5);*/
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -422,7 +430,7 @@ button:focus{
 .lbox-details h1{
 	font-size: 54px;
 	font-family: 'Engagement', cursive;
-	color: #ffffff;
+	color:darkorange;
 	position: relative;
 	z-index: 3;
 }
@@ -674,6 +682,7 @@ background:linear-gradient(yellow,blue);
 .main-timeline-box{
 	position: relative;
 	word-wrap: break-word;
+	background:linear-gradient(papayawhip,pink);
 }
 
 .main-timeline-box .timeline-element {
@@ -760,12 +769,15 @@ background:linear-gradient(yellow,blue);
 	color: red;
 }
 .pp{
-   font-size: 30px;
+   font-size:22px;
    color:red;
 
 }
 #pc{
 	flood-color: red;
+}
+.cl{
+	color: red;
 }
 
 /*------------------------------------------------------------------
@@ -848,7 +860,7 @@ background:linear-gradient(yellow,blue);
 
 .gallery-box{
 	padding: 70px 0px;
-	background: linear-gradient(orange,burlywood);
+	background: linear-gradient(lightsalmon,burlywood);
 }
 
 .gallery-box ul{}
@@ -998,6 +1010,7 @@ background:linear-gradient(yellow,blue);
 
 .events-box{
 	padding: 70px 0px;
+	background: linear-gradient(papayawhip,khaki);
 }
 .event-inner{
 	background: #ffffff;
@@ -1100,7 +1113,7 @@ select.form-control:not([size]):not([multiple]){
 }
 
 .footer-box{
-	background:navy;
+	background:teal;
 	padding: 20px 0;
 }
 
@@ -1119,8 +1132,8 @@ select.form-control:not([size]):not([multiple]){
 }
 #pl{
 	text-align: center;
-	color: gold;
-	font-size: 20px;
+	color:white;
+	font-size: 18px;
 }
 
 
